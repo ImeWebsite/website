@@ -20,10 +20,10 @@ jobs:
                   password: ${{ secrets.VPS_PASSWORD }}
                   port: ${{ secrets.VPS_PORT }}
                   script: |
-                      if [ -d "/image/admin" ]; then
-                        rm -rf /image/admin
+                      if [ -d "/image/website" ]; then
+                        rm -rf /image/website
                       fi
-                      git clone https://Baguette42:${{ secrets.GITHUB_TOKEN }}@github.com/Pa3eAnnee/admin-panel.git /image/admin
+                      git clone https://Janin-Michel-Mathias:${{ secrets.GITUB_TOKEN }}@github.com/ImeWebsite/website.git /image/website
                       cd /image/admin
                       docker stop web-1
                       docker system prune -af --volumes
