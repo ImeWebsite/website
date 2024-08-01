@@ -1,0 +1,29 @@
+name: Deploy to VPS
+
+on:
+    release:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Deploy to VPS
+              uses: appleboy/ssh-action@v0.1.5
+              with:
+                  host: ${{ secrets.VPS_IP }}
+                  username: ${{ secrets.VPS_USER }}
+                  password: ${{ secrets.VPS_PASSWORD }}
+                  port: ${{ secrets.VPS_PORT }}
+                  script: |
+                      if [ -d "/image/webapp" ]; then
+                        rm -rf /image/webapp
+                      fi
+                      git clone https://Baguette42:${{ secrets.GITHUB_TOKEN }}@github.com/Pa3eAnnee/webapp.git /image/webapp
+                      cd /image/webapp
+                      npm install
+                      npm run build
+                      docker compose restart
