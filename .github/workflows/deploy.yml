@@ -2,6 +2,7 @@ name: Deploy to VPS
 
 on:
     release:
+        types: [published]
 
 jobs:
     deploy:
@@ -19,11 +20,11 @@ jobs:
                   password: ${{ secrets.VPS_PASSWORD }}
                   port: ${{ secrets.VPS_PORT }}
                   script: |
-                      if [ -d "/image/webapp" ]; then
-                        rm -rf /image/webapp
+                      if [ -d "/image/admin" ]; then
+                        rm -rf /image/admin
                       fi
-                      git clone https://Baguette42:${{ secrets.GITHUB_TOKEN }}@github.com/Pa3eAnnee/webapp.git /image/webapp
-                      cd /image/webapp
-                      npm install
-                      npm run build
-                      docker compose restart
+                      git clone https://Baguette42:${{ secrets.GITHUB_TOKEN }}@github.com/Pa3eAnnee/admin-panel.git /image/admin
+                      cd /image/admin
+                      docker stop web-1
+                      docker system prune -af --volumes
+                      docker-compose up -d
