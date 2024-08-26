@@ -1,0 +1,51 @@
+.actuality {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.actuality>* {
+    display:none;
+}
+
+.actuality>h1 {
+    text-transform: uppercase;
+    font-size: 37;
+    color: #FFE9CF;
+    font-weight: bold;
+    font-family: 'Obviously Variable';
+}
+
+.actuality>p {
+    font-size: 33;
+    color: black;
+    font-family: 'Obviously Variable';
+    text-align: center;
+    word-wrap: wrap;
+}
+.actuality:hover {
+    transition: 1s;
+    background: #818C58 !important;
+}
+
+.actuality:hover>* {
+    display:block;
+}
+
+.date {
+    font-size: 20px;
+    color: #FFE9CF;
+    font-family: 'Obviously Variable';
+    text-transform: lowercase;
+}
+
+.link {
+    font-size: 20px;
+    color: black;
+    font-family: 'Obviously Variable';
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 5px;
+    border-radius: 1000px;
+}

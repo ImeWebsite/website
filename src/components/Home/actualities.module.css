@@ -1,0 +1,19 @@
+.actualities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.galleryRight {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
