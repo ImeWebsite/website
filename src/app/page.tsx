@@ -13,3 +13,7 @@ export default function Home() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "Accueil - Ivry Montagne Escalade",
+}

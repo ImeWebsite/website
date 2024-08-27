@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family : 'Obviously Variable';
+}
+.calendar {
+    width: 80%;
+    border-collapse: collapse;
+}
+.cell {
+    width: calc(100%/7);
+    height: 105px;
+    border: solid black 3px;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+    color: #818C58;
+}
+
+.cell p {
+    margin: 0;
+}
+
+.row td:nth-child(6) {
+    background-color: #818C58;
+    color: black !important;
+}
+
+.row td:nth-child(7) {
+    background-color: #818C58;
+    color: black !important;
+}
+
+.row td:nth-child(6) a:hover {
+    color: #FFE9CF !important;
+    transition: 0.5s;
+}
+
+.row td:nth-child(7) a:hover {
+    color: #FFE9CF !important;
+    transition: 0.5s;
+}
+
+
+
+
+.eventName {
+    font-weight: bold;
+    word-wrap: wrap;
+    text-transform: uppercase;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.eventName:hover {
+    color: #F21F1F;
+    transition: 0.5s;
+}

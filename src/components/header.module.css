@@ -3,18 +3,43 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #F21F1F;
     font-family: 'Obviously Variable', sans-serif;
     font-weight: bold;
     font-size: 37px;
     text-transform: uppercase;
     width: 100%;
+}
+
+.header a:hover {
+    color: #FFE9CF;
+    transition: 0.5s;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.header img:hover {
+    filter: brightness(0) saturate(100%) invert(98%) sepia(24%) saturate(1857%) hue-rotate(296deg) brightness(107%) contrast(115%);
+    transition: 0.5s;
+}
+
+.container {
     position: fixed;
+    width: 100%;
+}
+
+.red {
+    background-color: #F21F1F;
+}
+
+.green {
+    background-color: #818C58;
 }
 
 .headerRight {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 15%;
+    gap: 40px;
 }
