@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Obviously Variable';
+    padding: 1rem;
+}
+
+.container h1 {
+    color: #818C58;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.container p {
+    text-align: center;
+    width: 80%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}

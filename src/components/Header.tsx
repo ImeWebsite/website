@@ -8,20 +8,44 @@ export const Header = () => {
   return (
     <header className={(status == 'default' ? styles.red : styles.green) + ' '+ styles.container} style={{zIndex:7}}>
         <div className={styles.header}>
+            {status == 'contact' ? (
+                <Image 
+                    src="/fermer.svg"
+                    alt="Fermer"
+                    width="39"
+                    height="41"
+                    onClick={() => setStatus('default')}
+                    className={styles.icon}
+                />
+            ):(
+                <Image 
+                    src="/contact.svg"
+                    alt="Contact"
+                    width="45"
+                    height="33"
+                    onClick={() => setStatus('contact')}
+                    className={styles.icon}
+                />
+            )    
+            }
+            <a href="/">
             <Image 
-                src="/contact.svg"
-                alt="Contact"
-                width="45"
-                height="33"
+                src="/logo-header.svg"
+                alt="Logo"
+                width="152"
+                height="48"
+                className={styles.logo}
             />
+            </a>
             <div className={styles.headerRight}>
-                {status == 'menu' ? (
+                {/* {status == 'menu' ? (
                     <Image 
                         src="fermer.svg"
                         alt="Fermer"
                         width="39"
                         height="41"
                         onClick={() => setStatus('default')}
+                        className={styles.icon}
                     />
                 ):(
                     <a onClick={() => setStatus('menu')}>
@@ -35,6 +59,7 @@ export const Header = () => {
                         width="39"
                         height="41"
                         onClick={() => setStatus('default')}
+                        className={styles.icon}
                     />
                 ):(
                 <Image
@@ -43,8 +68,9 @@ export const Header = () => {
                     width="41"
                     height="41"
                     onClick={() => setStatus('search')}
+                    className={styles.icon}
                 />
-                )}
+                )} */}
             </div>
         </div>
         {status == 'menu' && (
@@ -56,6 +82,13 @@ export const Header = () => {
             <p>
                 Search
             </p>
+        )}
+        {status == 'contact' && (
+            <div className={styles.contact}>
+                <a href="mailto:Ivrymontagneescalade@gmail.com" target="_blank">Ivrymontagneescalade@gmail.com</a>
+                <a href="https://maps.app.goo.gl/9H5zUejzkuFBR1NJ6" target="_blank">28 Bd de Brandebourg <br /> 94200 Ivry-sur-Seine</a>
+                <a href="https://t.me/+ecYrrGXHT4UyZjk0" target="_blank">Rejoindre le télégram</a>
+            </div>
         )}
     </header>
   )

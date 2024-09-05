@@ -11,10 +11,9 @@ const Footer = () => {
             width="82"
             height="139"
         />
-        <a href="maito:escalade@usivry.org">escalade@usivry.org</a>
-        <a href="">26 Bd de Brandebourg</a>
-        <a href="">94200 Ivry-sur-Seine</a>
-        <a href="">rejoindre le télégram</a>
+        <a href="maito:Ivrymontagneescalade@gmail.com">Ivrymontagneescalade@gmail.com</a>
+        <a href="https://maps.app.goo.gl/9H5zUejzkuFBR1NJ6" target="_blank">28 Bd de Brandebourg<br />94200 Ivry-sur-Seine</a>
+        <a href="https://t.me/+ecYrrGXHT4UyZjk0" target="_blank">rejoindre le télégram</a>
         <p>&copy;IvryMontagneEscalade</p>
     </footer>
   )

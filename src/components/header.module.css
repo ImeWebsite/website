@@ -20,7 +20,7 @@
     transition: 0.5s;
 }
 
-.header img:hover {
+.icon:hover {
     filter: brightness(0) saturate(100%) invert(98%) sepia(24%) saturate(1857%) hue-rotate(296deg) brightness(107%) contrast(115%);
     transition: 0.5s;
 }
@@ -42,4 +42,28 @@
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.logo {
+    position: relative;
+    right: 45px;
+}
+
+.contact a:hover {
+    color: #FFE9CF;
+    transition: 0.5s;
+}
+
+.contact a {
+    transition: 0.5s;
 }
