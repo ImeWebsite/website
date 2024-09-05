@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './actuality.module.css'
+import baseStyle from './base.module.css'
 import {dateFormat} from '../../services/dateFormat'
 
 const Actuality = ({width, height, actuality}) => {
@@ -15,7 +16,7 @@ const Actuality = ({width, height, actuality}) => {
             <p>
                 {actuality.description}
             </p>
-            <a href={actuality.link} className={style.link}>
+            <a href={actuality.link} className={baseStyle.link}>
                 Plus
             </a>
         </div>

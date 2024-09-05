@@ -17,9 +17,11 @@
     text-align: left;
     padding: 5px;
     color: #818C58;
+    font-weight: 900;
 }
 
 .cell p {
+    color: black;
     margin: 0;
 }
 
@@ -41,6 +43,13 @@
 .row td:nth-child(7) a:hover {
     color: #FFE9CF !important;
     transition: 0.5s;
+}
+.calendarZone {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    justify-content: center;
+    gap: 3%;
 }
 
 

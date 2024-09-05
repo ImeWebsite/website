@@ -38,22 +38,3 @@
     text-transform: lowercase;
     margin:0;
 }
-
-.link {
-    font-size: 20px;
-    color: #FFE9CF;
-    font-family: 'Obviously Variable';
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    border: solid 2px black;
-    padding: 5px 15px;
-    border-radius: 1000px;
-    transition: 0.5s;
-}
-
-.link:hover {
-    background-color: #F21F1F;
-    color: #FFE9CF;
-    transition: 0.5s;
-}

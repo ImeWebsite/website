@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Hero from "../components/Home/Hero";
 import Actualities from "../components/Home/Actualities";
 import Calendar from "../components/Home/Calendar";
+import Inscription from "../components/Home/Inscription";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Actualities />
       <Calendar />
+      <Inscription />
     </main>
   );
 }

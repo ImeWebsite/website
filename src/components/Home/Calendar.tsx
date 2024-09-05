@@ -2,6 +2,7 @@ import React from 'react'
 import baseStyle from './base.module.css'
 import style from './calendar.module.css'
 import { events } from './events'
+import Image from 'next/image'
 
 const months = [
     'de Janvier',
@@ -76,6 +77,13 @@ const Calendar = () => {
   return (
     <div className={style.container}>
         <h1 className={baseStyle.title}>Les sorties {months[month]}</h1>
+        <div className={style.calendarZone}>
+          <Image
+            src="fleche-g.svg"
+            alt="Fleche gauche"
+            width="51"
+            height="51"
+          />
         <table className={style.calendar}>
             <thead>
                 <tr>
@@ -92,6 +100,13 @@ const Calendar = () => {
                 {rows}
             </tbody>
         </table>
+        <Image
+            src="fleche-d.svg"
+            alt="Fleche droite"
+            width="51"
+            height="51"
+          />
+        </div>
     </div>
   )
 }
