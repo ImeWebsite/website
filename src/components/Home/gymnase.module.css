@@ -1,7 +1,5 @@
-.article {
-    width: 40%;
-    text-align: center;
-    font-size: 24;
+.image {
+    border: 3px solid black;
 }
 
 .container {

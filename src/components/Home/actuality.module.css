@@ -16,23 +16,26 @@
 
 .content>h1 {
     text-transform: uppercase;
-    font-size: 37;
+    font-size: 37px;
     color: #FFE9CF;
     font-weight: bold;
     font-family: 'Obviously Variable';
     margin:0;
+    width: 70%;
+    text-align: center;
 }
 
 .content>p {
-    font-size: 33;
+    font-size: 20px;
     color: black;
     font-family: 'Obviously Variable';
     text-align: center;
     word-wrap: wrap;
+    width: 70%;
 }
 
 .date {
-    font-size: 20;
+    font-size: 20px;
     color: #FFE9CF!important;
     font-family: 'Obviously Variable';
     text-transform: lowercase;

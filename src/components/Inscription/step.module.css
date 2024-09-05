@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Obviously Variable';
+    padding: 1rem;
+}
+
+.title {
+    color: #F21F1F;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+}
+
+.subtitle {
+    color: #F21F1F;
+    font-weight: normal;
+    width: 40%;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+.container li {
+    list-style-type: none;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.container ul, .container ol, .container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+}
+
+.container li p {
+    width: 52%;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.container li h2 {
+    margin: 0;
+    color: #818C58;
+    font-size: 2.5em;
+}

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Obviously Variable';
+    padding: 1rem;
+}
+
+.title {
+    color: #F21F1F;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.subtitle {
+    width: 40%;
+    text-align: center;
+}
+
