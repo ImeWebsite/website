@@ -24,7 +24,7 @@ jobs:
                         rm -rf /image/website
                       fi
                       git clone https://Janin-Michel-Mathias:${{ secrets.GITUB_TOKEN }}@github.com/ImeWebsite/website.git /image/website
-                      cd /image/admin
+                      cp /image/imgs/* /image/website/public
                       docker stop web-1
                       docker system prune -af --volumes
                       docker-compose up -d
