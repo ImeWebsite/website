@@ -9,10 +9,22 @@
 .title {
     color: #818C58;
     text-transform: uppercase;
+    text-align: center;
     font-size: 3em;
 }
 
 .text {
     width: 50%;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .text {
+        width: 90vw;
+    }
+    
 }

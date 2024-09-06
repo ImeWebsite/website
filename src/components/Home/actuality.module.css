@@ -41,3 +41,18 @@
     text-transform: lowercase;
     margin:0;
 }
+
+.actuality {
+    border: 3px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .actuality{
+        width: 90vw !important;
+        height: 68vw !important;
+    }
+
+    .content>h1 {
+        font-size: 25px;
+    }
+}

@@ -10,12 +10,30 @@
     color: #818C58;
     text-transform: uppercase;
     font-size: 3em;
+    width: 90vw;
+    text-align: center
 }
 
 .container p {
     text-align: center;
-    width: 80%;
+    width: 90vw;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 60px;
+}
+
+.img {
+    width: 958px;
+    height: 408px;
+    background-image: url('/lemur-site-ime.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        width: 90vw;
+        height: 38vw;
+        margin: auto;
+    }
 }

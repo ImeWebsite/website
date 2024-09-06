@@ -58,3 +58,33 @@
     text-align: center;
     line-height: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .container table {
+        width: 90vw;
+        height: 350px;
+    }
+    .container td {
+        width: calc(100%/7);
+    }
+
+    .text {
+        width: 90vw;
+    }
+
+    .container table p {
+        font-size: 0.8em;
+    }
+
+    .container h5 {
+        font-size: 0.8em;
+    }
+
+    .container h3 {
+        font-size: 0.8em;
+    }
+
+    .container table th, .container table td {
+        padding: 5px 0;
+    }
+}

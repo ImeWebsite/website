@@ -14,7 +14,7 @@ const Gymnase = () => {
             title: "Gymnase de l'Orme au chat",
             description: "Découvrez le fonctionnement, les horaires et les règles du gymnase.",
             link: "/gymnase",
-            image: "url(/lemur-image.jpg)"
+            image: "url(/lemur-image.JPG)"
         }}
         />
     </div>

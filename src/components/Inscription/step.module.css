@@ -49,3 +49,13 @@
     color: #818C58;
     font-size: 2.5em;
 }
+
+@media screen and (max-width: 768px) {
+    .subtitle {
+        width: 100%;
+    }
+
+    .container li p {
+        width: 90%;
+    }
+}

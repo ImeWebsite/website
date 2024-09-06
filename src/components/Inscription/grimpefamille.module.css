@@ -9,9 +9,17 @@
 .title {
     color: #818C58;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .text {
     width: 50%;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text {
+        width: 100%;
+    }
 }

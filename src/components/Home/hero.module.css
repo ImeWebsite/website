@@ -1,0 +1,25 @@
+.img {
+    width: 433px;
+    height: 140px;
+    background-image: url('/logo-accueil.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Obviously Variable';
+    padding: 1rem;
+    width: 100vw;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .img {
+        width: 90vw;
+        height: 29vw;
+        margin: auto;
+    }
+}

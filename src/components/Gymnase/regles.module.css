@@ -42,3 +42,14 @@
 .red {
     color: #F21F1F;
 }
+
+@media screen and (max-width: 768px) {
+
+    .subtitle {
+        width: 90vw;
+    }
+
+    .container ul {
+        width: 90vw;
+    }
+}

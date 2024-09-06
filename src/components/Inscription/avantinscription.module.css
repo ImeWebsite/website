@@ -9,6 +9,7 @@
 .title {
     color: #F21F1F;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .text {
@@ -18,4 +19,11 @@
 
 .red {
     color: #F21F1F;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text {
+        width: 90vw;
+    }
 }

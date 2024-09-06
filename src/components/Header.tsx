@@ -6,7 +6,7 @@ import { useState } from 'react';
 export const Header = () => {
     const [status, setStatus] = useState('default');
   return (
-    <header className={(status == 'default' ? styles.red : styles.green) + ' '+ styles.container} style={{zIndex:7}}>
+    <header className={(status == 'default' ? styles.red : styles.green) + ' '+ styles.container} style={{...{zIndex:7}, ...(status=='default' ? {borderBottom: '3px solid black'} : {})}}>
         <div className={styles.header}>
             {status == 'contact' ? (
                 <Image 
