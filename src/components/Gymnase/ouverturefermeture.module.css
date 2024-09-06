@@ -37,9 +37,14 @@ text-align: center;
 
     .container p {
         width: 90vw;
+        font-size: 15px;
     }
 
     .container ul {
         width: 90vw;
+    }
+
+    .container li {
+        font-size: 15px;
     }
 }

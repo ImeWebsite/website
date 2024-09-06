@@ -16,3 +16,7 @@ const page = () => {
 }
 
 export default page
+
+export const metadata = {
+    title: "Gymnase - Ivry Montagne Escalade",
+  }

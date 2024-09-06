@@ -52,4 +52,12 @@
     .container ul {
         width: 90vw;
     }
+
+    .container li {
+        font-size: 15px;
+    }
+
+    .container ul p {
+        font-size: 15px;
+    }
 }

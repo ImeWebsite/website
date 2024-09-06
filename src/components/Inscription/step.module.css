@@ -53,9 +53,11 @@
 @media screen and (max-width: 768px) {
     .subtitle {
         width: 100%;
+        font-size: 25px;
     }
 
     .container li p {
         width: 90%;
+        font-size: 15px
     }
 }
