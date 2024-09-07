@@ -3,7 +3,7 @@ import style from './tarifs.module.css'
 
 const tarifs:any = {
     Adultes: [
-    '19-59 ans -> 108 €',
+    '18-59 ans -> 108 €',
     'à partir de 60 ans -> 96 €',
     'chômeurs -> 84 €'
     ],
