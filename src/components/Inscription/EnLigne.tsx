@@ -8,6 +8,7 @@ const EnLigne = () => {
     const steps = [
         {
             title: 'Se connecter au site de la FSGT pour <b>prendre une licence</b>',
+            subtitle: 'Elle sera validée après paiement sur Hello Asso',
             links: [
                 {
                     title: 'FSGT',
@@ -19,7 +20,7 @@ const EnLigne = () => {
                 'Sélectionner dans choix de la structure : <span style="font-weight: 900">08354 - Ivry Montagne Escalade</span>',
                 '<span style="font-weight: 900">Saisissez vos informations personnelles</span> : ajoutez votre photo, cochez vos options et n\'oubliez pas d\' enregistrer les données. Continuer la Saisie.',
                 '<span style="font-weight: 900">Choix de la section</span> : Escalade / Montagne',
-                '<span style="font-weight: 900">Choix de la licence</span> : type de licence <span style="font-weight: 900">OMNISPORT</span> </br></br> Si toutes vos réponses au <b>questionnaire santé</b> sont <span style="font-weight: 900">NON</span> : cochez l\'option. \n\n Si vous avez répondu à au moins une des rubriques <span style="font-weight: 900">OUI</span> : téléchargez votre certificat médical. </br></br> <b>N\'oubliez pas de cocher <span style="color:red">l\'assurance (IA)</span>, c\'est très important !</b>',
+                '<span style="font-weight: 900">Choix de la licence</span> : type de licence <span style="font-weight: 900">OMNISPORT</span> </br></br> Si toutes vos réponses au <b>questionnaire santé</b> sont <span style="font-weight: 900">NON</span> : cochez l\'option. \n\n Si vous avez répondu à au moins une des rubriques <span style="font-weight: 900">OUI</span> : téléchargez votre certificat médical. </br></br> <b>N\'oubliez pas de cocher <span style="color:red">l\'assurance (IA)</span>, c\'est très important !</b> Sauf si vous le refusez expressément',
                 'Cliquez sur <span style="font-weight: 900">Calculer le tarif, vérifiez si toutes les informations sont correctes (Pour rectifier, retournez en cliquant sur les onglets en haut).</span> Si tout est correct, cliquez sur <span style="font-weight: 900">Continuer avec cette licence.</span></br></br> <b>aucun paiement n\'est nécessaire à cette étape</b> (le règlement se fait par HelloAsso lors de l’adhésion au club).'
             ]
         },
@@ -50,7 +51,7 @@ const EnLigne = () => {
             steps: [
                 'Connectez vous ou créez un compte sur HelloAsso.',
                 'Remplissez et cochez les informations demandées.',
-                'Effectuez le paiement (tarifs ci-dessus), vous faites partie du club !'
+                'Effectuez le paiement (tarifs ci-dessus), vous faites partie du club ! <br /><br />- si vous demandez de ne pas prendre d\'assurance individuelle accident proposée par la FSGT : mettez <b>SANSASSURA</b> dans le code promo <br /><br />- Si vous avez déjà une licence FSGT : Entrez <b>SANSFSGT</b> dans le code promo'
             ]
         },
         {

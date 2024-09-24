@@ -86,8 +86,8 @@ export const Header = () => {
         {status == 'contact' && (
             <div className={styles.contact}>
                 <a href="mailto:Ivrymontagneescalade@gmail.com" target="_blank">Ivrymontagneescalade@gmail.com</a>
-                <a href="https://maps.app.goo.gl/9H5zUejzkuFBR1NJ6" target="_blank">28 Bd de Brandebourg <br /> 94200 Ivry-sur-Seine</a>
-                <a href="https://t.me/+ecYrrGXHT4UyZjk0" target="_blank">Rejoindre le télégram</a>
+                <a href="https://maps.app.goo.gl/9H5zUejzkuFBR1NJ6" target="_blank">Adresse du gymnase: <br />28 Bd de Brandebourg <br /> 94200 Ivry-sur-Seine</a>
+                <a href="https://t.me/+ecYrrGXHT4UyZjk0" target="_blank">Rejoindre le groupe d&apos;échange</a>
             </div>
         )}
     </header>

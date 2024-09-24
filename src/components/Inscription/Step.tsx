@@ -12,6 +12,7 @@ const Step = ({index, step}:StepProps) => {
     <div className={style.container}>
         <h1 className={style.title}>{index}.</h1>
         <h2 className={style.subtitle} dangerouslySetInnerHTML={{__html: step.title}}></h2>
+        {step.subtitle && <p style={{color:'#F21F1F'}}>{step.subtitle}</p>}
         <ul>
         {step.links.map((link:any) => (
             <li key={link.url}><a href={link.url} className={baseStyle.link} target="_blank">{link.title}</a></li>
