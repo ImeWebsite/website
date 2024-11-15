@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 300px;
+    width: 80%;
 }
 
 .gallery {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 22px;

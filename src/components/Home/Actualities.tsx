@@ -32,19 +32,19 @@ const Actualities = () => {
         <h1 className={baseStyle.title}>Actualités</h1>
         <div className={style.gallery}>
             <Actuality 
-                width={556}
-                height={580}
+                width={'45vw'}
+                height={'40vw'}
                 actuality={events[0]}
             />
             <div className={style.galleryRight}>
                 <Actuality 
-                    width={424}
-                    height={278}
+                    width={'25vw'}
+                    height={'calc(20vw - 11px)'}
                     actuality={events[1]}
                 />
                 <Actuality 
-                    width={424}
-                    height={278}
+                    width={'25vw'}
+                    height={'calc(20vw - 11px)'}
                     actuality={events[2]}
                 />
             </div>

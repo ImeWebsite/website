@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     font-family : 'Obviously Variable';
+    margin-top: 150px;
 }
 .calendar {
     width: 80%;
