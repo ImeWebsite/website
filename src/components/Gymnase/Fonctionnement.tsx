@@ -6,7 +6,7 @@ const Fonctionnement = () => {
     <div className={style.container}>
         <h1 className={style.title}>Fonctionnement</h1>
         <p className={style.text}>
-        Le mur de l’Orme au Chat est accessible aux adhérents du club Ivry Montagne Escalade, ainsi qu’aux adhérents des autres clubs d’escalade de la FSGT Île-de-France, en fonction du planning ci-dessous.<br/><br/>Le club est affilié à la Fédération Sportive et Gymnique du Travail (FSGT) qui a pour ambition de rendre accessible le sport à tous. Son fonctionnement est essentiellement basé sur les valeurs du <b>bénévolat</b>, du partage, de l’accès à l’autonomie et de l’entraide.
+        Le mur du collège Gisèle Halimi est accessible aux adhérents du club Ivry Montagne Escalade, ainsi qu’aux adhérents des autres clubs d’escalade de la FSGT Île-de-France, en fonction du planning ci-dessous. <br/><br/>Le club est affilié à la Fédération Sportive et Gymnique du Travail (FSGT) qui a pour ambition de rendre accessible le sport à tous. Son fonctionnement est essentiellement basé sur les valeurs du <b>bénévolat</b>, du partage, de l&apos;accès à l&apos;autonomie et de l&apos;entraide.        
         </p>
         <table>
             <thead>
@@ -37,25 +37,26 @@ const Fonctionnement = () => {
                     </td>
                     <td>
                         <h3>Adultes encadrés</h3>
-                        <p>19:30<br/>-<br/>23:00</p>
+                        <p>19:30<br/>-<br/>22:30</p>
                     </td>
                     <td>
                         <h3>Ados</h3>
                         <p>19:00<br/>-<br/>21:00</p>
                         <h3 className={style.red}>Grimpe Libre</h3>
-                        <p>19:30<br/>-<br/>23:00</p>
+                        <p>19:30<br/>-<br/>22:30</p>
                     </td>
                     <td>
                         <h3>Grimpe famille</h3>
-                        <p>17:00<br/>-<br/>19:00</p>
+                        <p>18:00<br/>-<br/>20:00</p>
                         <h3 className={style.red}>Grimpe Libre</h3>
-                        <h5>Créneau ouvert aux voisins</h5>
-                        <p>18:00<br/>-<br/>23:00</p>
+                        <h5 className={style.red}>Créneau ouvert aux voisins</h5>
+                        <p>18:00<br/>-<br/>22:30</p>
                     </td>
                     <td style={{backgroundColor:"#818C58"}}>
                         <h3>Grimpe famille</h3>
                         <p>09:30<br/>-<br/>12:30</p>
                         <h3 style={{color:'#FFE9CF'}}>Grimpe Libre</h3>
+                        <h5 style={{color:'#FFE9CF'}}>Créneau ouvert aux voisins</h5>
                         <p>12:30<br/>-<br/>18:00</p>
                     </td>
                 </tr>

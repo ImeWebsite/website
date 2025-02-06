@@ -9,9 +9,8 @@ const Regles = () => {
         <ul>
             <li>Faire attention au bon déroulement de la séance ;</li>
             <li>Prendre soin du matériel ;</li>
-            <li>Remplir le cahier de présence à chaque séance (à l&apos;entrée du gymnase) ;</li>
-            <b><span className={style.red}><li style={{marginBottom: 0}}>Participer au rangement du matériel en fin de séance :</li></span></b>
-            <p>cordes lovées, dégaines rangées par lot de 5 avec leur système d&apos;assurage et mousqueton à vis, tapis rangés ;</p>
+            <b><li style={{marginBottom: 0}}>Participer au rangement du matériel en fin de séance :</li></b>
+            <p>Participer au rangement du matériel en fin de séance :<br/>cordes lovées, dégaines rangées par lot avec leur système<br/>d’assurage et mousqueton à vis dans le local<br/>« Associations »</p>
             <li>En fin de séance, veiller à respecter scrupuleusement les consignes de fermeture ci dessous.</li>
         </ul>
     </div>

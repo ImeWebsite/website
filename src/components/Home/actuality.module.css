@@ -25,6 +25,17 @@
     text-align: center;
 }
 
+.content>h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFE9CF;
+    font-weight: bold;
+    font-family: 'Obviously Variable';
+    margin:0;
+    width: 70%;
+    text-align: center;
+}
+
 .content>p {
     font-size: 20px;
     color: black;

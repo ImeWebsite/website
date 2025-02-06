@@ -11,10 +11,11 @@ const Gymnase = () => {
         width="703px"
         height="437px"
         actuality={{
-            title: "Gymnase de l'Orme au chat",
+            title: "Le mur d’ecalade",
+            subtitle: "Du collège Gisèle Halimi",
             description: "Découvrez le fonctionnement, les horaires et les règles du gymnase.",
             link: "/gymnase",
-            image: "url(/lemur-image.JPG)"
+            image: "url(/lemur-image.jpg)"
         }}
         />
     </div>

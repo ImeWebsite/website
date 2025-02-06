@@ -11,6 +11,8 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
+              with:
+                  ref: TMP
 
             - name: Deploy to VPS
               uses: appleboy/ssh-action@v0.1.5

@@ -5,8 +5,9 @@ import style from './hero.module.css'
 const Hero = () => {
   return (
     <div className={style.container}>
-        <h1>L&apos;orme au chat</h1>
-        <p>28, boulevard de Brandebourg<br />Quartier : Ivry-Port<br/><br/><span style={{color:'#F21F1F'}}>Il est prévu que l’activité escalade soit déplacée sur le mur du Collège Gisèle Halimi 12, rue du 19 mars 1962 à Ivry sur Seine, au cours de l’automne 2024.</span></p>
+        <h1>Le mur d'escalade</h1>
+        <h2>Du collège Gisèle Halimi</h2>
+        <a href="https://maps.app.goo.gl/Y79iYwujnhKhrg53A"><b>12, rue du 19 mars 1962<br /> Quartier : Plateau-Monmousseau</b><br/> Tram T9 – Arrêt « La Briqueterie »</a>
         <div className={style.img}></div>
     </div>
   )

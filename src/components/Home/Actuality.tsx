@@ -16,6 +16,11 @@ const Actuality = ({width, height, actuality}: ActualityProps) => {
             <h1>
                 {actuality.title}
             </h1>
+            {actuality.subtitle &&
+            <h2>
+                {actuality.subtitle}
+            </h2>
+            }
             {actuality.date && <p className={style.date}>
                 {dateFormat(actuality.date)}
             </p>}

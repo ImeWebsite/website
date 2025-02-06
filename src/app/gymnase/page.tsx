@@ -4,6 +4,7 @@ import Hero from '../../components/Gymnase/Hero'
 import Fonctionnement from '../../components/Gymnase/Fonctionnement'
 import Regles from '../../components/Gymnase/Regles'
 import OuvertureFermeture from '../../components/Gymnase/OuvertureFermeture'
+import AttentionGrimpeur from '@/components/Gymnase/AttentionGrimpeur'
 const page = () => {
   return (
     <main className={style.main}>
@@ -11,6 +12,7 @@ const page = () => {
         <Fonctionnement />
         <Regles />
         <OuvertureFermeture />
+        <AttentionGrimpeur />
     </main>
   )
 }
