@@ -25,7 +25,7 @@ const Fonctionnement = () => {
                         <h3>Enfants</h3>
                         <p>18:00<br/>-<br/>19:30</p>
                         <h3>Adultes encadrés</h3>
-                        <p>19:30<br/>-<br/>23:00</p>
+                        <p>19:30<br/>-<br/>22:30</p>
                     </td>
                     <td>
                         <h3>Enfants</h3>
@@ -33,7 +33,7 @@ const Fonctionnement = () => {
                         <h3>Ados</h3>
                         <p>19:00<br/>-<br/>21:00</p>
                         <h3 className={style.red}>Grimpe Libre</h3>
-                        <p>19:30<br/>-<br/>23:00</p>
+                        <p>19:30<br/>-<br/>22:30</p>
                     </td>
                     <td>
                         <h3>Adultes encadrés</h3>
