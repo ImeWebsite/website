@@ -3,15 +3,15 @@ import style from './tarifs.module.css'
 
 const tarifs:any = {
     Adultes: [
-    '18-59 ans -> 108 €',
-    'à partir de 60 ans -> 96 €',
-    'chômeurs -> 84 €'
+    '18-59 ans -> 110 €',
+    'à partir de 60 ans -> 98 €',
+    'chômeurs ou en difficulté momentanée (en parler avec un membre du bureau) -> 86 €'
     ],
-    Etudiants: ['jusqu’à 25 ans -> 96 €'],
-    Ados: ['13 à 17 ans -> 84 €'],
-    Enfants: ['10 à 12 ans -> 80 €'],
+    Etudiants: ['jusqu’à 25 ans -> 98 €'],
+    Ados: ['13 à 17 ans -> 88 €'],
+    Enfants: ['10 à 12 ans -> 82 €'],
     'Grimpe Famille': ['Le tarif est calculé en fonction du nombre de personnes inscrites (parents et enfants) et vous seront communiqués par famille, suite à la journée portes ouvertes.'],
-    'Saisonnier: à partir de mars': ['56 €']
+    'Saisonnier: à partir de mars': ['58 €']
 }
 
 const Tarifs = () => {
